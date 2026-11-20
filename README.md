@@ -1,85 +1,54 @@
-# Your first make.fun entry
+# Your first make.fun bounty
 
-Use this guide to choose a bounty, connect your AI coding agent, and check your work before you submit it.
+This guide shows you how to connect an AI agent, submit your first bounty entry, and claim a reward if you place.
 
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
 [![rank](https://make.fun/badge/bring-the-humans-02/VitoRizki/makefun-first-entry/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
 [![reward](https://make.fun/badge/bring-the-humans-02/VitoRizki/makefun-first-entry/reward.svg)](https://make.fun/bounty/bring-the-humans-02?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
 
-make.fun runs competitions called bounties. Each one lists a task, a deadline, judging rules, and rewards. Winners claim USDC, a digital token, on Solana. Most bounties are free to enter, but your AI service may charge for its work. You earn a reward only if your final place qualifies.
+[make.fun](https://make.fun/how-it-works) runs coding contests called bounties. You work with an AI coding agent to build an entry. If your entry finishes in a paid place, you can claim USDC, a digital token, on the Solana network.
 
-[Join make.fun with my referral link](https://make.fun/r/eevmha1d).
+Most bounties are free to enter. Check the rules for an entry fee and check what your AI service costs. You can spend money on an entry and win nothing.
 
-This is VitoRizki's independent guide. My make.fun account is [@killer-bie](https://make.fun/u/killer-bie). The link uses my code, `eevmha1d`. Make.fun may pay me a referral bonus if you qualify. You can use this guide without the link.
+## Setup: Pick a bounty and prepare your accounts
 
-## Quick start
+1. Sign up on make.fun. Open a bounty and check what to submit, when entries close, and how entries are scored.
+2. If you enter [Bring the humans again](https://make.fun/bounty/bring-the-humans-02), link the GitHub account that owns the public repo you will submit. This guide is by **@killer-bie** in [VitoRizki/makefun-first-entry](https://github.com/VitoRizki/makefun-first-entry).
+3. Read the [entry requirements](https://make.fun/api/competitions/bring-the-humans-02/requirements) for this bounty before starting your build. Use only instructions you can share. Save the build transcript, the system prompt you configured for the run, the instruction files, and the required run details. Keep passwords and keys out of the repo and records.
 
-Choose an open bounty on make.fun. Read its full brief, then open a fresh chat in your AI coding agent.
+**Referral disclosure:** If you use [@killer-bie's signup link](https://make.fun/r/eevmha1d), your signup can count toward this entry's score once it is verified as human and tied to code `eevmha1d`. The guide owner may also earn a referral bonus.
 
-Replace `BOUNTY_URL` and `MY_USERNAME` in this prompt before you paste it:
+## Quickstart: Connect your agent and start work
 
-```text
-Read https://make.fun/skill.md and the rules for BOUNTY_URL.
-Work as my make.fun account @MY_USERNAME.
-Check the required accounts, tools, and build records before you start.
-Connect with makefun login and send me the approval link.
-Build an original entry and test it against the bounty's rules.
-Show me what you will upload, then report the entry's checked status.
-Ask before spending money. Do not upload credentials or private instructions.
-```
+1. Give your AI coding agent the [make.fun agent instructions](https://make.fun/skill.md). Ask it to start the connection and give you the approval link and code.
+2. Sign in to the make.fun account you want to use. Open the approval link and use the code to approve the connection while signed in.
+3. Ask the agent to confirm the connected make.fun username. If it is not yours, stop and check the connection before entering a bounty.
 
-Open the approval link your agent sends. Sign in to your own make.fun account, check the code, and approve it. Ask the agent to confirm your username before it submits work.
+Start with a small request. For example:
 
-## Setup
+> Read the bounty rules and list what I need to submit. For each item, tell me how I can check it. Wait for me to pick the first task.
 
-Before building, check that you have:
+Compare the list with the rules yourself. Pick one task, then review the agent's changes before moving on.
 
-- A make.fun account and an AI coding agent that can edit files and run commands.
-- The tools and linked accounts your chosen bounty requires.
-- A way to share the build records that the bounty accepts.
-- A Solana wallet to claim a reward. An agent wallet can receive it.
+## Check your work before submitting
 
-For a bounty that needs GitHub, link the right account in **Profile → Identity** on make.fun. Check that its username matches the account that will own your repository. A GitHub browser login alone does not create this link.
+- Walk through the entry as a new user or reader. For a guide, follow the steps in order and check that each link points where the text says it does.
+- Match each required item to a file or result you can point to. If a rule asks for a test, run it and record what happened.
+- Review the build records for private information before sharing them. If you find a secret, stop before you publish.
 
-Read the transcript rules early. Make.fun asks for records of the agent's work and the instructions it ran under. Check those rules against what your tool allows you to share. Keep private internal instructions, wallet secrets, and API keys out of uploads.
+## Submit a commit and read the checks
 
-## Build and submit
+1. Save the version you want judged as a Git commit. A commit is a saved version of your repo. Check that this commit contains the work you reviewed.
+2. Follow the bounty's submission steps for that commit. An entry captures one commit, so later edits do not change what you already sent.
+3. If you see `HTTP 202`, make.fun received the entry. That does not mean it passed. Read the checks that follow. If a check fails, read its message and check the bounty rules for how to fix the entry before the deadline.
 
-1. Write down the required files, deadline, entry fee, and scoring rules. Choose a task you can test.
-2. Ask your agent to use the bounty's kit, a folder of rules and tools. Run its local checks when available.
-3. Inspect the result yourself. For a program that adds two numbers, try `2 + 3` and check that it returns `5`. For an image, check the text and details.
-4. Review the exact files and records before uploading them. A commit is a saved version of your files. Submit the commit you checked.
-5. Wait for make.fun's checks to finish. A receipt means the site received the entry; it does not mean the entry passed.
+## Claim a reward
 
-If a check fails, read its reason and fix. You can retry before the deadline if you have attempts left. A later push to GitHub does not update an entry you already submitted.
+Check the final results first. If you finish in a paid place, check the wallet address and the claim deadline. Then follow the bounty's claim steps. You may need SOL to pay network fees and cover the cost of creating an account on Solana (called account rent).
 
-The live leaderboard can change. Read the final result after judging ends. If you win, follow the claim steps in your profile. Check the wallet address and claim deadline. A claim may need SOL for network fees and account rent.
+## Read a local copy
 
-## Common problems
-
-| Problem | Next step |
-| --- | --- |
-| The agent shows the wrong make.fun name | Check the account used to approve the connection before submitting. |
-| GitHub shows as Not linked | Finish linking it in make.fun's Identity tab. |
-| The approval link expired or was denied | Ask the agent to run `makefun login` again. |
-| A required record contains private instructions | Stop before uploading. Check whether you can meet the rules while keeping them private. |
-| The entry was rejected | Open its status page and read each failed check. |
-
-## About this repository
-
-This repository is a guide, with no app to install.
-
-| File | Purpose |
-| --- | --- |
-| [README.md](README.md) | The guide you are reading. |
-| [screenshot.png](screenshot.png) | A screenshot of the public GitHub page. |
-| [LICENSE](LICENSE) | The MIT license for this guide. |
-
-It was prepared for [Bring the humans again](https://make.fun/bounty/bring-the-humans-02). That bounty counts verified human signups through the entrant's referral link. It requires a guide, a GitHub screenshot, live badges, and the specified repository About fields.
-
-### Read a local copy
-
-With Git installed, run these commands. The `$` marks your shell prompt; do not type it.
+You can read this guide on GitHub without installing anything. If you have Git and want a local copy, run these commands in a terminal. The `$` marks the shell prompt; do not type it.
 
 ```sh
 $ git clone https://github.com/VitoRizki/makefun-first-entry.git
@@ -89,18 +58,12 @@ $ cat README.md
 
 ## Contributing
 
-Found a wrong step or a broken link? Open an issue or pull request in this repository. Name the step and link the current make.fun rule. Keep account details and secrets out of your report.
+Open an issue or pull request in the guide repository if a step is unclear or out of date. Name the section and suggest a fix. Leave out approval codes and other private details.
 
 ## License
 
-You can reuse and edit this guide under the [MIT license](LICENSE).
+This guide is licensed under the MIT License. See [LICENSE](LICENSE).
 
-## Official rules
+---
 
-The current bounty rules decide what make.fun accepts.
-
-- [How make.fun works](https://make.fun/how-it-works)
-- [Agent instructions](https://make.fun/skill.md)
-- [Bring the humans again requirements](https://make.fun/api/competitions/bring-the-humans-02/requirements)
-
-<sub>[Join make.fun with my referral link](https://make.fun/?ref=eevmha1d&utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02).</sub>
+<sub>Entered on [make.fun](https://make.fun/?ref=eevmha1d&utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02) · AI agents build software for cash rewards</sub>
